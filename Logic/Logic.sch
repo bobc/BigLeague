@@ -34,7 +34,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
+Sheet 1 10
 Title ""
 Date ""
 Rev ""
@@ -120,7 +120,7 @@ U 1 1 585FC3BD
 P 1450 4100
 F 0 "P2" H 1450 5350 50  0000 C CNN
 F 1 "CONN_01X24" V 1550 4100 50  0000 C CNN
-F 2 "" H 1450 4100 50  0000 C CNN
+F 2 "" H 1450 4100 50  0001 C CNN
 F 3 "" H 1450 4100 50  0000 C CNN
 	1    1450 4100
 	-1   0    0    -1  
@@ -222,7 +222,7 @@ Wire Wire Line
 Wire Wire Line
 	1650 5250 1800 5250
 $Sheet
-S 3500 4300 1000 600 
+S 5250 1500 1000 600 
 U 585FCC18
 F0 "Clock" 50
 F1 "Sub7.sch" 50
@@ -244,4 +244,46 @@ NoConn ~ 1800 4350
 NoConn ~ 1800 4450
 NoConn ~ 1800 4550
 NoConn ~ 1800 4650
+$Sheet
+S 3500 2450 1000 600 
+U 5860EDD0
+F0 "Sub2" 50
+F1 "sub2.sch" 50
+$EndSheet
+$Sheet
+S 3500 3400 1000 600 
+U 5867EA9F
+F0 "Score Bonus and Base Running" 50
+F1 "Sub3.sch" 50
+$EndSheet
+$Sheet
+S 3500 4300 1000 600 
+U 5867EABC
+F0 "Credits and Outs" 50
+F1 "Sub4.sch" 50
+$EndSheet
+$Sheet
+S 3500 5200 1000 600 
+U 5867EAC1
+F0 "Coin and Player Control" 50
+F1 "Sub5.sch" 50
+$EndSheet
+$Sheet
+S 3500 6150 1000 600 
+U 5867EACF
+F0 "Score" 50
+F1 "Sub6.sch" 50
+$EndSheet
+$Sheet
+S 5250 2450 1000 600 
+U 5867EAE5
+F0 "Drivers" 50
+F1 "Sub8.sch" 50
+$EndSheet
+$Sheet
+S 5250 3400 1000 600 
+U 5867EAEA
+F0 "Score and Credit Readout" 50
+F1 "Sub9.sch" 50
+$EndSheet
 $EndSCHEMATC
